@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/b-r-harne-ayurvedic-medical-college-thane-189279",
-  "https://www.shiksha.com/college/b-r-harne-college-of-pharmacy-thane-210987",
-  "https://www.shiksha.com/college/fakhruddin-ali-ahmed-medical-college-and-hospital-assam-other-62859",
-  "https://www.shiksha.com/college/government-villupuram-medical-college-and-hospital-tamil-nadu-other-62963",
-  "https://www.shiksha.com/college/jawaharlal-nehru-medical-college-sawangi-wardha-102525",
-  "https://www.shiksha.com/college/veterinary-college-and-research-institute-vcri-salem-tamil-nadu-veterinary-animal-sciences-university-211663",
-  "https://www.shiksha.com/college/ram-eesh-group-of-institutions-greater-noida-48889",
-  "https://www.shiksha.com/university/bhabha-university-bhopal-58265",
-  "https://www.shiksha.com/college/government-dharmapuri-medical-college-62915",
-  "https://www.shiksha.com/college/virohan-mit-university-shillong-238518",
-  # "https://www.shiksha.com/college/chouksey-group-of-colleges-bilaspur-43163",
-  # "https://www.shiksha.com/college/ayujyoti-ayurvedic-college-and-hospital-sirsa-87173",
-  # "https://www.shiksha.com/college/a-m-shaikh-homoeopathic-medical-college-and-hospital-belgaum-87263",
-  # "https://www.shiksha.com/college/nagaland-institute-of-medical-science-and-research-nimsr-phreibagei-kohima-213225",
-  # "https://www.shiksha.com/college/indian-institute-of-aesthetic-medicine-rastha-peth-pune-37985",
-  # "https://www.shiksha.com/college/sheat-college-of-pharmacy-varanasi-59789",
-  # "https://www.shiksha.com/college/g-s-gune-ayurved-college-ahmednagar-68077",
-  # "https://www.shiksha.com/college/kalaniketan-polytechnic-college-jabalpur-147303",
-  # "https://www.shiksha.com/college/gn-group-of-institutes-greater-noida-56393",
-  # "https://www.shiksha.com/college/shri-d-g-m-ayurvedic-medical-college-and-hospital-gadag-87291",
+  # "https://www.shiksha.com/college/b-r-harne-ayurvedic-medical-college-thane-189279",
+  # "https://www.shiksha.com/college/b-r-harne-college-of-pharmacy-thane-210987",
+  # "https://www.shiksha.com/college/fakhruddin-ali-ahmed-medical-college-and-hospital-assam-other-62859",
+  # "https://www.shiksha.com/college/government-villupuram-medical-college-and-hospital-tamil-nadu-other-62963",
+  # "https://www.shiksha.com/college/jawaharlal-nehru-medical-college-sawangi-wardha-102525",
+  # "https://www.shiksha.com/college/veterinary-college-and-research-institute-vcri-salem-tamil-nadu-veterinary-animal-sciences-university-211663",
+  # "https://www.shiksha.com/college/ram-eesh-group-of-institutions-greater-noida-48889",
+  # "https://www.shiksha.com/university/bhabha-university-bhopal-58265",
+  # "https://www.shiksha.com/college/government-dharmapuri-medical-college-62915",
+  # "https://www.shiksha.com/college/virohan-mit-university-shillong-238518",
+  "https://www.shiksha.com/college/chouksey-group-of-colleges-bilaspur-43163",
+  "https://www.shiksha.com/college/ayujyoti-ayurvedic-college-and-hospital-sirsa-87173",
+  "https://www.shiksha.com/college/a-m-shaikh-homoeopathic-medical-college-and-hospital-belgaum-87263",
+  "https://www.shiksha.com/college/nagaland-institute-of-medical-science-and-research-nimsr-phreibagei-kohima-213225",
+  "https://www.shiksha.com/college/indian-institute-of-aesthetic-medicine-rastha-peth-pune-37985",
+  "https://www.shiksha.com/college/sheat-college-of-pharmacy-varanasi-59789",
+  "https://www.shiksha.com/college/g-s-gune-ayurved-college-ahmednagar-68077",
+  "https://www.shiksha.com/college/kalaniketan-polytechnic-college-jabalpur-147303",
+  "https://www.shiksha.com/college/gn-group-of-institutes-greater-noida-56393",
+  "https://www.shiksha.com/college/shri-d-g-m-ayurvedic-medical-college-and-hospital-gadag-87291",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1281
+    c_count = 1291
 
     try:
         for base_url in BASE_URL:
