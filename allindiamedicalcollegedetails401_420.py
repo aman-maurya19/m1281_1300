@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  # "https://www.shiksha.com/college/b-r-harne-ayurvedic-medical-college-thane-189279",
-  # "https://www.shiksha.com/college/b-r-harne-college-of-pharmacy-thane-210987",
-  # "https://www.shiksha.com/college/fakhruddin-ali-ahmed-medical-college-and-hospital-assam-other-62859",
-  # "https://www.shiksha.com/college/government-villupuram-medical-college-and-hospital-tamil-nadu-other-62963",
-  # "https://www.shiksha.com/college/jawaharlal-nehru-medical-college-sawangi-wardha-102525",
-  # "https://www.shiksha.com/college/veterinary-college-and-research-institute-vcri-salem-tamil-nadu-veterinary-animal-sciences-university-211663",
-  # "https://www.shiksha.com/college/ram-eesh-group-of-institutions-greater-noida-48889",
-  # "https://www.shiksha.com/university/bhabha-university-bhopal-58265",
-  # "https://www.shiksha.com/college/government-dharmapuri-medical-college-62915",
-  # "https://www.shiksha.com/college/virohan-mit-university-shillong-238518",
-  "https://www.shiksha.com/college/chouksey-group-of-colleges-bilaspur-43163",
-  "https://www.shiksha.com/college/ayujyoti-ayurvedic-college-and-hospital-sirsa-87173",
-  "https://www.shiksha.com/college/a-m-shaikh-homoeopathic-medical-college-and-hospital-belgaum-87263",
-  "https://www.shiksha.com/college/nagaland-institute-of-medical-science-and-research-nimsr-phreibagei-kohima-213225",
-  "https://www.shiksha.com/college/indian-institute-of-aesthetic-medicine-rastha-peth-pune-37985",
-  "https://www.shiksha.com/college/sheat-college-of-pharmacy-varanasi-59789",
-  "https://www.shiksha.com/college/g-s-gune-ayurved-college-ahmednagar-68077",
-  "https://www.shiksha.com/college/kalaniketan-polytechnic-college-jabalpur-147303",
-  "https://www.shiksha.com/college/gn-group-of-institutes-greater-noida-56393",
-  "https://www.shiksha.com/college/shri-d-g-m-ayurvedic-medical-college-and-hospital-gadag-87291",
+  "https://www.shiksha.com/college/school-of-basic-sciences-vels-institute-of-science-technology-and-advanced-studies-pallavaram-chennai-53635",
+  "https://www.shiksha.com/college/rajiv-gandhi-cancer-institute-and-research-centre-delhi-105871",
+  "https://www.shiksha.com/college/manipal-hospital-old-airport-road-bangalore-240824",
+  "https://www.shiksha.com/university/manonmaniam-sundaranar-university-msuniv-tamil-nadu-other-22783",
+  "https://www.shiksha.com/college/shreeyash-institute-of-pharmaceutical-education-and-research-aurangabad-88507",
+  "https://www.shiksha.com/college/anurag-college-of-pharmacy-bhandara-89235",
+  "https://www.shiksha.com/college/city-school-of-pharmacy-city-group-of-colleges-lucknow-106183",
+  "https://www.shiksha.com/college/shri-sant-gajanan-maharaj-college-of-pharmacy-maharashtra-other-147595",
+  "https://www.shiksha.com/college/bharat-school-of-pharmacy-hyderabad-87733",
+  "https://www.shiksha.com/college/zee-college-of-pharmacy-unnao-101337",
+  "https://www.shiksha.com/college/all-india-institute-of-physical-medicine-and-rehabilitation-mahalaxmi-mumbai-4488",
+  "https://www.shiksha.com/college/dav-college-for-girls-yamuna-nagar-22537",
+  "https://www.shiksha.com/college/iibm-institute-of-business-management-meerut-42062",
+  "https://www.shiksha.com/college/bhausaheb-mulak-ayurved-college-and-research-hospital-maharashtra-other-68229",
+  "https://www.shiksha.com/college/hlg-memorial-hospital-asansol-182103",
+  "https://www.shiksha.com/college/dhanvantari-d-m-l-t-college-nashik-190425",
+  "https://www.shiksha.com/college/modern-dental-college-and-research-centre-jabalpur-208933",
+  "https://www.shiksha.com/college/st-james-college-of-pharmaceutical-sciences-kerala-other-60781",
+  "https://www.shiksha.com/college/anantha-lakshmi-government-ayurvedic-college-warangal-87167",
+  "https://www.shiksha.com/college/inamdar-unani-medical-college-and-hospital-gulbarga-87485",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1291
+    c_count = 1781
 
     try:
         for base_url in BASE_URL:
