@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/school-of-basic-sciences-vels-institute-of-science-technology-and-advanced-studies-pallavaram-chennai-53635",
-  "https://www.shiksha.com/college/rajiv-gandhi-cancer-institute-and-research-centre-delhi-105871",
-  "https://www.shiksha.com/college/manipal-hospital-old-airport-road-bangalore-240824",
-  "https://www.shiksha.com/university/manonmaniam-sundaranar-university-msuniv-tamil-nadu-other-22783",
-  "https://www.shiksha.com/college/shreeyash-institute-of-pharmaceutical-education-and-research-aurangabad-88507",
-  "https://www.shiksha.com/college/anurag-college-of-pharmacy-bhandara-89235",
-  "https://www.shiksha.com/college/city-school-of-pharmacy-city-group-of-colleges-lucknow-106183",
-  "https://www.shiksha.com/college/shri-sant-gajanan-maharaj-college-of-pharmacy-maharashtra-other-147595",
-  "https://www.shiksha.com/college/bharat-school-of-pharmacy-hyderabad-87733",
-  "https://www.shiksha.com/college/zee-college-of-pharmacy-unnao-101337",
-  "https://www.shiksha.com/college/all-india-institute-of-physical-medicine-and-rehabilitation-mahalaxmi-mumbai-4488",
-  "https://www.shiksha.com/college/dav-college-for-girls-yamuna-nagar-22537",
-  "https://www.shiksha.com/college/iibm-institute-of-business-management-meerut-42062",
-  "https://www.shiksha.com/college/bhausaheb-mulak-ayurved-college-and-research-hospital-maharashtra-other-68229",
-  "https://www.shiksha.com/college/hlg-memorial-hospital-asansol-182103",
-  "https://www.shiksha.com/college/dhanvantari-d-m-l-t-college-nashik-190425",
-  "https://www.shiksha.com/college/modern-dental-college-and-research-centre-jabalpur-208933",
-  "https://www.shiksha.com/college/st-james-college-of-pharmaceutical-sciences-kerala-other-60781",
-  "https://www.shiksha.com/college/anantha-lakshmi-government-ayurvedic-college-warangal-87167",
-  "https://www.shiksha.com/college/inamdar-unani-medical-college-and-hospital-gulbarga-87485",
+  "https://www.shiksha.com/college/vardhaman-college-of-pharmacy-karanja-maharashtra-other-100745",
+  "https://www.shiksha.com/college/artemis-health-institute-gurgaon-106125",
+  "https://www.shiksha.com/college/dr-abdul-ali-tibbiya-college-and-hospital-lucknow-184251",
+  "https://www.shiksha.com/college/ashwini-ayurvedic-medical-college-and-p-g-centre-davangere-68189",
+  "https://www.shiksha.com/college/government-polytechnic-college-ratnagiri-98635",
+  "https://www.shiksha.com/college/mission-college-of-pharmacy-varanasi-148919",
+  "https://www.shiksha.com/college/pandaveswar-school-of-pharmacy-bardhaman-149237",
+  "https://www.shiksha.com/college/nitishwar-ayurved-medical-college-and-hospital-muzaffarpur-182257",
+  "https://www.shiksha.com/college/maharajah-s-college-of-pharmacy-vizianagaram-60654",
+  "https://www.shiksha.com/college/kanpur-institute-of-technology-and-pharmacy-63823",
+  "https://www.shiksha.com/college/b-n-college-of-pharmacy-lucknow-65837",
+  "https://www.shiksha.com/college/shram-sadhana-bombay-trust-s-institute-of-pharmacy-jalgaon-89067",
+  "https://www.shiksha.com/college/bhagwan-mahaveer-jain-hospital-bangalore-106041",
+  "https://www.shiksha.com/college/jivika-college-of-pharmacy-hardoi-149341",
+  "https://www.shiksha.com/college/kamalam-viswanathan-college-of-physiotherapy-trichy-193871",
+  "https://www.shiksha.com/college/jalpaiguri-government-medical-college-208829",
+  "https://www.shiksha.com/college/y-n-p-college-of-pharmacy-at-post-asangaon-dahanu-213477",
+  "https://www.shiksha.com/college/kiran-medical-college-surat-214769",
+  "https://www.shiksha.com/college/durgabai-deshmukh-hospital-and-research-center-hyderabad-106075",
+  "https://www.shiksha.com/college/mahender-singh-college-of-pharmacy-palwal-149713",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1781
+    c_count = 1981
 
     try:
         for base_url in BASE_URL:
