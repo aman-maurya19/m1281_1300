@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/vardhaman-college-of-pharmacy-karanja-maharashtra-other-100745",
-  "https://www.shiksha.com/college/artemis-health-institute-gurgaon-106125",
-  "https://www.shiksha.com/college/dr-abdul-ali-tibbiya-college-and-hospital-lucknow-184251",
-  "https://www.shiksha.com/college/ashwini-ayurvedic-medical-college-and-p-g-centre-davangere-68189",
-  "https://www.shiksha.com/college/government-polytechnic-college-ratnagiri-98635",
-  "https://www.shiksha.com/college/mission-college-of-pharmacy-varanasi-148919",
-  "https://www.shiksha.com/college/pandaveswar-school-of-pharmacy-bardhaman-149237",
-  "https://www.shiksha.com/college/nitishwar-ayurved-medical-college-and-hospital-muzaffarpur-182257",
-  "https://www.shiksha.com/college/maharajah-s-college-of-pharmacy-vizianagaram-60654",
-  "https://www.shiksha.com/college/kanpur-institute-of-technology-and-pharmacy-63823",
-  "https://www.shiksha.com/college/b-n-college-of-pharmacy-lucknow-65837",
-  "https://www.shiksha.com/college/shram-sadhana-bombay-trust-s-institute-of-pharmacy-jalgaon-89067",
-  "https://www.shiksha.com/college/bhagwan-mahaveer-jain-hospital-bangalore-106041",
-  "https://www.shiksha.com/college/jivika-college-of-pharmacy-hardoi-149341",
-  "https://www.shiksha.com/college/kamalam-viswanathan-college-of-physiotherapy-trichy-193871",
-  "https://www.shiksha.com/college/jalpaiguri-government-medical-college-208829",
-  "https://www.shiksha.com/college/y-n-p-college-of-pharmacy-at-post-asangaon-dahanu-213477",
-  "https://www.shiksha.com/college/kiran-medical-college-surat-214769",
-  "https://www.shiksha.com/college/durgabai-deshmukh-hospital-and-research-center-hyderabad-106075",
-  "https://www.shiksha.com/college/mahender-singh-college-of-pharmacy-palwal-149713",
+  "https://www.shiksha.com/college/k-m-patel-institute-of-physiotherapy-anand-202301",
+  "https://www.shiksha.com/college/government-medical-college-jagtial-telangana-other-207495",
+  "https://www.shiksha.com/college/government-medical-college-dholpur-210137",
+  "https://www.shiksha.com/college/apollo-hospital-b-g-road-bangalore-240752",
+  "https://www.shiksha.com/college/shri-vivekanand-nursing-home-trust-s-ayurved-mahavidyalaya-ahmednagar-68123",
+  "https://www.shiksha.com/college/acharya-narendra-deo-kisan-p-g-college-babhnan-gonda-111057",
+  "https://www.shiksha.com/college/m-n-college-of-optometry-chennai-193873",
+  "https://www.shiksha.com/college/capital-degree-college-medchal-hyderabad-71117",
+  "https://www.shiksha.com/college/government-postgraduate-ayurveda-college-and-hospital-varanasi-213905",
+  "https://www.shiksha.com/college/pt-neki-ram-sharma-government-medical-college-bhiwani-244478",
+  "https://www.shiksha.com/university/arunodaya-university-itanagar-64569",
+  "https://www.shiksha.com/college/maharishi-dayanand-medical-sciences-and-research-institute-roorkee-89051",
+  "https://www.shiksha.com/college/aravind-eye-hospital-coimbatore-106037",
+  "https://www.shiksha.com/college/guru-nanak-girls-college-santpura-yamuna-nagar-111563",
+  "https://www.shiksha.com/college/m-s-college-of-pharmacy-palghar-150683",
+  "https://www.shiksha.com/college/global-institute-of-technology-and-management-gitm-admission-office-munirka-delhi-212283",
+  "https://www.shiksha.com/college/smt-fulehra-smarak-college-of-pharmacy-azamgarh-60097",
+  "https://www.shiksha.com/college/koringa-college-of-pharmacy-east-godavari-60572",
+  "https://www.shiksha.com/college/guru-teg-bahadur-para-medical-institute-shahjahanpur-65483",
+  "https://www.shiksha.com/college/m-v-college-veer-kunwar-singh-university-buxar-65969",
 ]
 
 
@@ -9246,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1981
+    c_count = 2261
 
     try:
         for base_url in BASE_URL:
