@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/k-m-patel-institute-of-physiotherapy-anand-202301",
-  "https://www.shiksha.com/college/government-medical-college-jagtial-telangana-other-207495",
-  "https://www.shiksha.com/college/government-medical-college-dholpur-210137",
-  "https://www.shiksha.com/college/apollo-hospital-b-g-road-bangalore-240752",
-  "https://www.shiksha.com/college/shri-vivekanand-nursing-home-trust-s-ayurved-mahavidyalaya-ahmednagar-68123",
-  "https://www.shiksha.com/college/acharya-narendra-deo-kisan-p-g-college-babhnan-gonda-111057",
-  "https://www.shiksha.com/college/m-n-college-of-optometry-chennai-193873",
-  "https://www.shiksha.com/college/capital-degree-college-medchal-hyderabad-71117",
-  "https://www.shiksha.com/college/government-postgraduate-ayurveda-college-and-hospital-varanasi-213905",
-  "https://www.shiksha.com/college/pt-neki-ram-sharma-government-medical-college-bhiwani-244478",
-  "https://www.shiksha.com/university/arunodaya-university-itanagar-64569",
-  "https://www.shiksha.com/college/maharishi-dayanand-medical-sciences-and-research-institute-roorkee-89051",
-  "https://www.shiksha.com/college/aravind-eye-hospital-coimbatore-106037",
-  "https://www.shiksha.com/college/guru-nanak-girls-college-santpura-yamuna-nagar-111563",
-  "https://www.shiksha.com/college/m-s-college-of-pharmacy-palghar-150683",
-  "https://www.shiksha.com/college/global-institute-of-technology-and-management-gitm-admission-office-munirka-delhi-212283",
-  "https://www.shiksha.com/college/smt-fulehra-smarak-college-of-pharmacy-azamgarh-60097",
-  "https://www.shiksha.com/college/koringa-college-of-pharmacy-east-godavari-60572",
-  "https://www.shiksha.com/college/guru-teg-bahadur-para-medical-institute-shahjahanpur-65483",
-  "https://www.shiksha.com/college/m-v-college-veer-kunwar-singh-university-buxar-65969",
+  "https://www.shiksha.com/college/smt-champa-devi-shikshan-prashikshan-college-gorakhpur-94773",
+  "https://www.shiksha.com/college/renai-medicity-kochi-105959",
+  "https://www.shiksha.com/college/inlaks-budhrani-hospital-pune-106019",
+  "https://www.shiksha.com/college/a-and-m-institute-of-computer-and-technology-pathankot-111909",
+  "https://www.shiksha.com/college/ismail-mehta-college-of-pharmacy-maharashtra-other-147537",
+  "https://www.shiksha.com/college/pallavan-pharmacy-college-kanchipuram-156607",
+  "https://www.shiksha.com/college/prakruthi-college-of-allied-health-sciences-kolar-184689",
+  "https://www.shiksha.com/college/hillside-college-of-physiotherapy-bangalore-186357",
+  "https://www.shiksha.com/college/valmik-naik-college-of-pharmacy-aurangabad-150677",
+  "https://www.shiksha.com/college/shaheed-bhagat-singh-college-of-pharmacy-jalaun-uttar-pradesh-other-181843",
+  "https://www.shiksha.com/college/vikas-college-of-physiotherapy-karnataka-other-185781",
+  "https://www.shiksha.com/college/index-nursing-college-indore-203809",
+  "https://www.shiksha.com/college/m-s-college-of-pharmacy-tumkur-207811",
+  "https://www.shiksha.com/college/counsel-india-noida-213469",
+  "https://www.shiksha.com/college/government-medical-college-mulugu-telangana-other-231158",
+  "https://www.shiksha.com/college/kakinada-institute-of-technology-sciences-ramachandrapuram-tirupati-60558",
+  "https://www.shiksha.com/college/rai-technology-university-bangalore-61291",
+  "https://www.shiksha.com/college/r-p-educational-trust-group-of-institutions-karnal-65385",
+  "https://www.shiksha.com/college/ram-singh-college-of-pharmacy-firozabad-65657",
+  "https://www.shiksha.com/college/sri-gowri-degree-and-p-g-college-visakhapatnam-68827",
 ]
 
 
@@ -9246,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2261
+    c_count = 2981
 
     try:
         for base_url in BASE_URL:
