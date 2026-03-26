@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/smt-champa-devi-shikshan-prashikshan-college-gorakhpur-94773",
-  "https://www.shiksha.com/college/renai-medicity-kochi-105959",
-  "https://www.shiksha.com/college/inlaks-budhrani-hospital-pune-106019",
-  "https://www.shiksha.com/college/a-and-m-institute-of-computer-and-technology-pathankot-111909",
-  "https://www.shiksha.com/college/ismail-mehta-college-of-pharmacy-maharashtra-other-147537",
-  "https://www.shiksha.com/college/pallavan-pharmacy-college-kanchipuram-156607",
-  "https://www.shiksha.com/college/prakruthi-college-of-allied-health-sciences-kolar-184689",
-  "https://www.shiksha.com/college/hillside-college-of-physiotherapy-bangalore-186357",
-  "https://www.shiksha.com/college/valmik-naik-college-of-pharmacy-aurangabad-150677",
-  "https://www.shiksha.com/college/shaheed-bhagat-singh-college-of-pharmacy-jalaun-uttar-pradesh-other-181843",
-  "https://www.shiksha.com/college/vikas-college-of-physiotherapy-karnataka-other-185781",
-  "https://www.shiksha.com/college/index-nursing-college-indore-203809",
-  "https://www.shiksha.com/college/m-s-college-of-pharmacy-tumkur-207811",
-  "https://www.shiksha.com/college/counsel-india-noida-213469",
-  "https://www.shiksha.com/college/government-medical-college-mulugu-telangana-other-231158",
-  "https://www.shiksha.com/college/kakinada-institute-of-technology-sciences-ramachandrapuram-tirupati-60558",
-  "https://www.shiksha.com/college/rai-technology-university-bangalore-61291",
-  "https://www.shiksha.com/college/r-p-educational-trust-group-of-institutions-karnal-65385",
-  "https://www.shiksha.com/college/ram-singh-college-of-pharmacy-firozabad-65657",
-  "https://www.shiksha.com/college/sri-gowri-degree-and-p-g-college-visakhapatnam-68827",
+  "https://www.shiksha.com/college/apollo-hospitals-guwahati-214297",
+  "https://www.shiksha.com/college/shree-aryatej-homoeopathic-medical-college-morbi-214815",
+  "https://www.shiksha.com/college/sri-chamundeshwari-medical-college-hospital-research-institute-ramanagara-229710",
+  "https://www.shiksha.com/college/hon-tukaramsheth-s-baviskar-institute-of-pharmaceutical-education-research-dahiwad-shirpur-maharashtra-other-213481",
+  "https://www.shiksha.com/college/poornayu-ayurvedic-chikitsalaya-evam-anusandhan-vidhyapeeth-girls-college-jabalpur-230358",
+  "https://www.shiksha.com/college/vijyashree-ayurvedic-medical-college-and-hospital-jabalpur-230366",
+  "https://www.shiksha.com/college/mrd-institute-of-medical-sciences-firozabad-237064",
+  "https://www.shiksha.com/college/netaji-college-of-pharmacy-bankura-237626",
+  "https://www.shiksha.com/college/narayana-superspeciality-hospital-howrah-240526",
+  "https://www.shiksha.com/college/suryadatta-college-of-pharmacy-healthcare-research-pune-245698",
+  "https://www.shiksha.com/college/anjali-college-of-pharmacy-science-agra-59325",
+  "https://www.shiksha.com/college/shri-rawatpura-sarkar-institute-of-pharmacy-jhansi-59371",
+  "https://www.shiksha.com/college/century-international-institute-of-dental-science-and-research-center-kasaragod-kasargode-66145",
+  "https://www.shiksha.com/college/pathfinder-institute-of-pharmacy-education-and-research-warangal-87865",
+  "https://www.shiksha.com/college/mahatma-gandhi-school-of-pharmacy-banswara-88339",
+  "https://www.shiksha.com/college/parmanand-college-of-technology-gajsinghpur-sriganaganagar-88377",
+  "https://www.shiksha.com/college/pratishta-institute-of-pharmaceutical-sciences-nalgonda-88969",
+  "https://www.shiksha.com/college/bhagwan-mahaveer-cancer-hospital-and-research-centre-jaipur-89607",
+  "https://www.shiksha.com/college/rvs-padmavathi-ammal-college-of-pharmacy-coimbatore-208259",
+  "https://www.shiksha.com/college/shri-n-m-patel-homoeopathic-medical-college-gujarat-other-209151",
 ]
 
 
@@ -9246,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2981
+    c_count = 3241
 
     try:
         for base_url in BASE_URL:
